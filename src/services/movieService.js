@@ -8,7 +8,6 @@ function movieUrl(id) {
 }
 
 export function getMovies() {
-  console.log(apiEndpoint);
   return http.get(apiEndpoint);
 }
 
